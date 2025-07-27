@@ -1,0 +1,94 @@
+
+/* للعناوين */
+h1, h2, h3 {
+  font-family: 'Young Serif', serif;
+  color: #312E2C;
+  font-size: 1.5rem;
+}
+
+body{
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+    background-color: #f3e5d8;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+  color: #5F564D;
+  font-size: 1rem;
+  font-weight: 400;
+}
+img{
+  width: 550px;
+  height: 250px;
+    border-radius: 10px 10px;
+}
+h1{
+   font-weight: 500;
+   margin-top: 0;
+}
+.card1{
+    display: flex;
+    width: 550px;
+    flex-direction: column;
+    height: fit-content;
+    background-color: white;
+    border-radius: 15px;
+    justify-content:center;
+    text-align:left;
+    padding: 35px;
+    margin: 25px;
+    font-size:0.7rem;
+}
+.card1 p{
+     text-align:left;
+     color: #5F564D;
+}
+.card2 {
+   background-color: #FFF5FA;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  height: fit-content;
+  margin-bottom: 0.5rem;
+}
+.card2 ul{
+margin-top: 0;
+  padding-left: 1.2rem;
+}
+
+.card2 header{
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+h2{
+    font-weight: 300;
+}
+.card3 li::marker{
+ color: #854632;
+}
+.card3 li{
+    list-style-type: disc;
+  padding-left: 20px;
+}
+.card4 li::marker {
+  color: #854632; 
+  font-weight: bold;
+}
+table td:nth-child(2) {
+  color:  #854632; 
+  font-weight: bold;
+}
+
+table tr {
+     border-bottom: 1px solid rgb(85, 76, 76);
+  
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
